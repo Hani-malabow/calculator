@@ -1,0 +1,14 @@
+input{
+    width: 370px;
+    padding-bottom: 30px;
+   margin-bottom: 30px;
+   border-radius: 9px;
+   background-color:grey;
+}
+.calc{
+   margin-bottom: 10px;
+}
+button{
+    width: 70px;
+
+}

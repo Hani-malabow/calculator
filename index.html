@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="text" id="Output">
+    <br>
+    <div class="calc">
+        <button type="button" onclick="onscreen('4')">4</button>
+        <button type="button" onclick="onscreen('5')">5</button>
+        <button type="button" onclick="onscreen('6')">6</button>
+        <button type="button" onclick="onscreen('*')">*</button>
+        <button type="button" onclick="onscreen('/')">/</button>
+        <br>
+    </div>
+    <div class="calc">
+        <button type="button"onclick="onscreen('1')">1</button>
+        <button type="button"onclick="onscreen('2')">2</button>
+        <button type="button"onclick="onscreen('3')">3</button>
+        <button type="button"onclick="onscreen('+')">+</button>
+        <button type="button"onclick="onscreen('-')">-</button>
+        <br>
+    </div>
+    <div class="calc">
+        <button type="button"onclick="onscreen('7')">7</button>
+        <button type="button"onclick="onscreen('8')">8</button>
+        <button type="button"onclick="onscreen('9')">9</button>
+        <button type="button" onclick="clean()">C</button>
+       
+        <br>
+    </div>
+    <div class="calc">
+        <button type="button"onclick="onscreen('0')">0</button>
+        <button type="button"onclick="onscreen('.')">.</button>
+        <button type="button" onclick="equal()">=</button>
+         <button type="button" onclick="Allclear()">AC</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
